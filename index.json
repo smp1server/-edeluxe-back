@@ -7,13 +7,13 @@
       "slug": "example",
       "title": "Example App",
       "author": "You",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "shortDesc": "A demo app placeholder.",
       "icon": "apps/example/icon.png",
       "nro": {
         "url": "apps/example/example.nro",
-        "sha256": "000...000",
-        "size": 12345
+        "sha256": "a629a46aec64576f89e86c82896c897057a97802b61276cf77b9dbcd68797c9e",
+        "size": 21
       }
     }
   ]
