@@ -1,0 +1,58 @@
+How to Add New NROs (Games) to This Repo
+=========================================
+
+1. Prepare Your NRO File
+------------------------
+- Name your `.nro` file clearly (e.g., `example.nro`).
+- Optionally, prepare a description and an icon image (PNG, 256x256 recommended).
+
+2. Add the NRO to the Repository
+-------------------------------
+- Place your `.nro` file in the appropriate folder, e.g.:
+  apps/example/example.nro
+
+3. Get SHA256 Checksum and File Size
+------------------------------------
+- Run these commands in the terminal:
+
+  sha256sum apps/example/example.nro
+
+  stat -c%s apps/example/example.nro
+
+- Copy the output. You may need this info for metadata or verification.
+
+4. Update Metadata (if required)
+-------------------------------
+- If there is a metadata file (like `games.json`), add an entry for your NRO, including the checksum and size:
+
+  {
+    "name": "Example Game",
+    "filename": "example.nro",
+    "description": "Short description.",
+    "icon": "example.png",
+    "sha256": "<paste checksum here>",
+    "size": <paste size here>
+  }
+
+5. Commit Your Changes
+---------------------
+- In the terminal, run:
+
+  git add apps/example/example.nro
+  git add apps/example/example.png   # if you have an icon
+  git add games.json                 # if you updated metadata
+  git commit -m "Add Example Game NRO"
+  git push
+
+6. Test Your Addition
+---------------------
+- Make sure your NRO appears in the app/game list.
+- Try launching it to confirm it works.
+
+7. Create a Pull Request (if needed)
+------------------------------------
+- If you’re contributing, open a pull request on GitHub with a description of your changes.
+
+Done!
+-----
+Your NRO is now part of the shop
