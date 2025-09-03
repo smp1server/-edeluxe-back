@@ -10,12 +10,13 @@
       "version": "1.0.0",
       "shortDesc": "A demo app placeholder.",
       "category": "tools",
-        "icon": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
+      "icon": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
       "nro": {
         "url": "https://smp1server.github.io/-edeluxe-back/apps/example/example.nro",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size": 12345
+        "sha256": "PUT_REAL_SHA256_HERE",
+        "size": PUT_REAL_FILESIZE_HERE
       }
     }
   ]
 }
+
