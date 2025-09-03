@@ -9,12 +9,14 @@
       "author": "You",
       "version": "1.1.0",
       "shortDesc": "A demo app placeholder.",
-      "icon": "apps/example/icon.png",
+      "category": "tools",
+      "icon": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
       "nro": {
-        "url": "apps/example/example.nro",
+        "url": "https://smp1server.github.io/-edeluxe-back/apps/example/example.nro",
         "sha256": "a629a46aec64576f89e86c82896c897057a97802b61276cf77b9dbcd68797c9e",
         "size": 21
       }
     }
   ]
 }
+
