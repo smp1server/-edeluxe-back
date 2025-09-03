@@ -9,9 +9,10 @@
       "author": "You",
       "version": "1.0.0",
       "shortDesc": "A demo app placeholder.",
-      "icon": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
+      "category": "tools",
+      "icon": "apps/example/icon.png",
       "nro": {
-        "url": "https://smp1server.github.io/-edeluxe-back/apps/example/example.nro",
+        "url": "apps/example/example.nro",
         "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
         "size": 12345
       }
