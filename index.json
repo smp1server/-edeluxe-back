@@ -1,5 +1,5 @@
 {
-  "catalogVersion": 1,
+  "catalog_version": 1,
   "title": "Demo Homebrew Store",
   "updated": "2025-09-03T00:00:00Z",
   "apps": [
@@ -8,14 +8,12 @@
       "title": "Example App",
       "version": "1.1.0",
       "category": "tools",
-      "shortDesc": "A demo app placeholder.",
+      "short_desc": "A demo app placeholder.",
       "author": "You",
-      "icon": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
-      "nro": {
-        "url": "https://smp1server.github.io/-edeluxe-back/apps/example/example.nro",
-        "sha256": "a629a46aec64576f89e86c82896c897057a97802b61276cf77b9dbcd68797c9e",
-        "size": 21
-      }
+      "icon_url": "https://smp1server.github.io/-edeluxe-back/apps/example/icon.png",
+      "nro_url": "https://smp1server.github.io/-edeluxe-back/apps/example/example.nro",
+      "sha256": "a629a46aec64576f89e86c82896c897057a97802b61276cf77b9dbcd68797c9e",
+      "size": 21
     }
   ]
 }
